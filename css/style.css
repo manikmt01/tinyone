@@ -1,0 +1,357 @@
+
+* {
+    font-family: 'PT Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*manu and banner section start*/
+.manu_banner {
+    background-color: #fcdb00;
+    overflow: hidden;
+    padding-bottom: 60px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*header section start*/
+header {
+    overflow: hidden;
+    padding: 60px 0;
+
+}
+
+.logo {
+    width: 55%;
+    float: left;
+}
+
+.logo img {}
+
+.manu {
+    width: 45%;
+    float: right;
+    margin-top: 8px;
+}
+
+.manu ul {
+    float: right;
+}
+
+.manu ul li {
+    list-style: none;
+    float: left;
+    display: block;
+    padding: 0px 62px;
+}
+
+.manu ul li:last-child {
+    padding-right: 0px;
+}
+
+.manu ul li a {
+    font-weight: 700;
+    color: #010101;
+    font-size: 22px;
+    transition: all ease .4s;
+}
+.manu ul li a:hover{
+    color: #fff;
+}
+/*header section end*/
+/*banner section start*/
+
+.banner {
+    overflow: hidden;
+}
+
+.bn_left {
+    width: 60%;
+    float: left;
+    margin-top: 60px;
+}
+
+.bn_post {
+    width: 70%;
+}
+
+.bn_post h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #010101;
+    margin-bottom: 20px;
+}
+
+.bn_post h4 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #313841;
+    margin-bottom: 20px;
+}
+
+.bn_post p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #555555;
+    margin-bottom: 40px;
+}
+
+.b_icon {
+    color: #010101;
+    font-size: 40px;
+    margin-right: 35px;
+    transition: all ease .3s;
+}
+
+.b_icon:hover {
+    color: #fff;
+}
+
+.bn_right {
+    width: 40%;
+    float: right;
+}
+
+.bn_right img {
+    width: 85%;
+}
+
+/*banner section end*/
+/*manu and banner section end*/
+
+/*tinyone post section start*/
+.tinyone {
+    padding: 100px 0;
+    overflow: hidden;
+}
+
+.tn_features {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    overflow: hidden;
+}
+
+.tn_features h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #010101;
+    margin-bottom: 20px;
+}
+
+.tn_features h4 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #313841;
+}
+
+/*tinyone post section end*/
+/*fully responsicve start*/
+.fully_resopnsive {
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+
+.fully_resopnsive:last-child {
+    margin-bottom: 0px;
+}
+
+.item_3,
+.item_2,
+.item_1 {
+    width: 30%;
+    float: left;
+    overflow: hidden;
+    margin-right: 37px;
+}
+
+.item_icon {
+    width: 14%;
+    float: left;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+.fully_icon {
+    font-size: 40px;
+    color: #010101;
+}
+
+.item_post {
+    width: 80%;
+    float: left;
+}
+
+.item_post h4 {
+    font-size: 22px;
+    ;
+    font-weight: 400;
+    color: #010101;
+    margin-bottom: 20px;
+}
+
+.item_post p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #898989;
+}
+
+/*fully responsicve end*/
+
+/*kep in touch with us section start*/
+.with_us {
+    background-color: #010101;
+    padding: 80px 0;
+    overflow: hidden;
+}
+
+/*with us post section start*/
+.with_us_post {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.with_us_post h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #fcdb00;
+    margin-bottom: 20px;
+}
+
+.with_us_post p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #898989;
+    margin-bottom: 40px;
+}
+
+/*with us post section end*/
+
+/*with us post section form section start*/
+.with_us_frm,
+.social_icon {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.with_us_frm input[type="text"] {
+    font-size: 16px;
+    font-weight: 400;
+    color: #898989;
+    width: 71%;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.with_us_frm input[type="submit"] {
+    font-size: 14px;
+    font-weight: 700;
+    color: #010101;
+    text-transform: uppercase;
+    width: 14%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+    background-color: #fcdb00;
+    cursor: pointer;
+    transition: all ease .4s;
+}
+
+.with_us_frm input[type="submit"]:hover {
+    background-color: #fff;
+    color: #010101;
+}
+
+/*with us post section form section end*/
+
+/*with us post section social section start*/
+.with_us_social {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.social_icon {
+    background-color: #fcdb00;
+    font-size: 30px;
+    padding: 18px 20px;
+    border-radius: 10px;
+    color: #010101;
+    margin-right: 30px;
+    transition: all ease .4s;
+}
+
+.social_icon:hover {
+    background-color: #fff;
+    color: #fcdb00;
+}
+
+/*with us post section social section end*/
+/*kep in touch with us section end*/
+/*footer section start*/
+footer {
+    padding: 80px 0 60px 0;
+    overflow: hidden;
+}
+
+.ft_1 {
+    width: 28%;
+    float: left;
+}
+
+.ft_1 ul {}
+
+.ft_1 ul li {
+    list-style: none;
+}
+
+.ft_2,.ft_3,.ft_4,.ft_5 {
+    width: 18%;
+    float: left;
+}
+
+.ft_3 {}
+
+.ft_4 {}
+
+.ft_5 {}
+
+.ft_same {}
+
+.ft_same ul {
+    
+}
+
+.ft_same ul li {
+    list-style: none;
+}
+
+.ft_same ul li a ,.ft_1 ul li{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 5px;
+    transition: all ease .3s;
+}
+.ft_same ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color: #fcdb00;
+    
+}
+
+/*footer section end*/
